@@ -1,0 +1,3 @@
+{
+  "api1": {"$schema": "http://json-schema.org/schema#", "type": "object", "properties": {"code": {"type": "integer"}, "list": {"type": "array"}}, "required": ["code", "list"]}
+}

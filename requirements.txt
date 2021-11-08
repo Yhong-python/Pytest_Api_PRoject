@@ -1,0 +1,6 @@
+requests==2.23.0
+allure_python_commons==2.8.36
+PyMySQL==0.9.3
+pytest==6.2.4
+jsonschema==2.6.0
+ruamel.base==1.0.0

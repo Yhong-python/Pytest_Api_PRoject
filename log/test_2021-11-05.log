@@ -1,0 +1,99 @@
+2021-11-05 13:45:47.499 | INFO     | common.log_tools:collect_request_detail:32 - ==================================<<  Request Detail  >>==================================
+2021-11-05 13:45:47.499 | INFO     | common.log_tools:collect_request_detail:33 - URL:   http://testfdv2.gold-cloud.com:82/wwwApi/admin/selectAdvertisement
+2021-11-05 13:45:47.500 | INFO     | common.log_tools:collect_request_detail:34 - Method:   POST
+2021-11-05 13:45:47.500 | INFO     | common.log_tools:collect_request_detail:35 - Content-Type:   None
+2021-11-05 13:45:47.500 | INFO     | common.log_tools:collect_request_detail:36 - Headers:   {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '0'}
+2021-11-05 13:45:47.500 | INFO     | common.log_tools:collect_request_detail:41 - Params:   {}
+2021-11-05 13:45:47.501 | INFO     | common.log_tools:collect_request_detail:48 - Time:   301.162ms
+2021-11-05 13:45:47.501 | INFO     | common.log_tools:collect_request_detail:49 - ==================================<<  Response Detail  >>==================================
+2021-11-05 13:45:47.501 | INFO     | common.log_tools:collect_request_detail:50 - Status_code:   200
+2021-11-05 13:45:47.501 | INFO     | common.log_tools:collect_request_detail:51 - Headers:   {'Transfer-Encoding': 'chunked', 'Content-Type': 'application/json;charset=UTF-8', 'Date': 'Fri, 05 Nov 2021 05:45:46 GMT', 'Keep-Alive': 'timeout=58', 'Server': 'nginx/1.14.0', 'Set-Cookie': 'JSESSIONID=03fe514a-a492-4b35-a3d5-a171cec1afbb; Path=/wwwApi; HttpOnly'}
+2021-11-05 13:45:47.502 | INFO     | common.log_tools:collect_request_detail:52 - Content:   b'{"code":200,"list":[]}'
+2021-11-05 13:45:47.502 | INFO     | common.log_tools:collect_request_detail:53 - Cookies:   {'JSESSIONID': '03fe514a-a492-4b35-a3d5-a171cec1afbb'}
+2021-11-05 14:01:30.703 | INFO     | common.log_tools:collect_request_detail:32 - ==================================<<  Request Detail  >>==================================
+2021-11-05 14:01:30.703 | INFO     | common.log_tools:collect_request_detail:33 - URL:   http://testfdv2.gold-cloud.com:82/wwwApi/admin/selectAdvertisement
+2021-11-05 14:01:30.704 | INFO     | common.log_tools:collect_request_detail:34 - Method:   POST
+2021-11-05 14:01:30.704 | INFO     | common.log_tools:collect_request_detail:35 - Content-Type:   None
+2021-11-05 14:01:30.704 | INFO     | common.log_tools:collect_request_detail:36 - Headers:   {'User-Agent': 'python-requests/2.23.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '0'}
+2021-11-05 14:01:30.704 | INFO     | common.log_tools:collect_request_detail:41 - Params:   {}
+2021-11-05 14:01:30.704 | INFO     | common.log_tools:collect_request_detail:48 - Time:   321.719ms
+2021-11-05 14:01:30.705 | INFO     | common.log_tools:collect_request_detail:49 - ==================================<<  Response Detail  >>==================================
+2021-11-05 14:01:30.705 | INFO     | common.log_tools:collect_request_detail:50 - Status_code:   200
+2021-11-05 14:01:30.705 | INFO     | common.log_tools:collect_request_detail:51 - Headers:   {'Server': 'nginx/1.14.0', 'Date': 'Fri, 05 Nov 2021 06:01:29 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=28a0c28a-09dd-4973-a940-5fb9dab87554; Path=/wwwApi; HttpOnly'}
+2021-11-05 14:01:30.706 | INFO     | common.log_tools:collect_request_detail:52 - Content:   b'{"code":200,"list":[]}'
+2021-11-05 14:01:30.706 | INFO     | common.log_tools:collect_request_detail:53 - Cookies:   {'JSESSIONID': '28a0c28a-09dd-4973-a940-5fb9dab87554'}
+2021-11-05 15:18:55.203 | INFO     | test_demo:test_01:14 - 开始执行用例
+2021-11-05 15:21:04.940 | INFO     | test_demo:test_01:14 - 开始执行用例
+2021-11-05 16:41:22.502 | INFO     | __main__:api_yaml_runner:41 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 16:41:22.503 | INFO     | __main__:api_yaml_runner:44 - Variable saved successfully ==> {'content': {'token1': '我是token1的值', 'token2': '我是token2的值'}} : value
+2021-11-05 16:41:22.504 | INFO     | __main__:api_yaml_runner:44 - Variable saved successfully ==> {'content': {'token1': '我是token1的值', 'token2': '我是token2的值'}} : value
+2021-11-05 16:41:34.877 | INFO     | __main__:api_yaml_runner:41 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 16:41:34.878 | INFO     | __main__:api_yaml_runner:44 - Variable saved successfully ==> session_token1 : value
+2021-11-05 16:41:34.879 | INFO     | __main__:api_yaml_runner:44 - Variable saved successfully ==> session_token2 : value
+2021-11-05 16:41:50.720 | INFO     | __main__:api_yaml_runner:41 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 16:41:50.721 | INFO     | __main__:api_yaml_runner:44 - Variable saved successfully ==> session_token1 :> value
+2021-11-05 16:41:50.721 | INFO     | __main__:api_yaml_runner:44 - Variable saved successfully ==> session_token2 :> value
+2021-11-05 16:41:59.206 | INFO     | __main__:api_yaml_runner:41 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 16:41:59.207 | INFO     | __main__:api_yaml_runner:44 - Variable saved successfully ==> session_token1 :> content.token1
+2021-11-05 16:41:59.207 | INFO     | __main__:api_yaml_runner:44 - Variable saved successfully ==> session_token2 :> content.token2
+2021-11-05 16:42:30.048 | INFO     | __main__:api_yaml_runner:41 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 16:42:30.049 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token1 :> content.token1
+2021-11-05 16:42:30.050 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token2 :> content.token2
+2021-11-05 16:42:37.046 | INFO     | __main__:api_yaml_runner:41 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 16:42:37.047 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token1 :> ['我是token1的值']
+2021-11-05 16:42:37.047 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token2 :> ['我是token2的值']
+2021-11-05 16:42:46.591 | INFO     | __main__:api_yaml_runner:41 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 16:42:46.591 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token1 :> ['我是token1的值']
+2021-11-05 16:42:46.592 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token2 :> ['我是token2的值']
+2021-11-05 16:42:59.071 | INFO     | __main__:api_yaml_runner:41 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 16:42:59.072 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 16:42:59.073 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token2 :> 我是token2的值
+2021-11-05 16:50:32.009 | INFO     | __main__:api_yaml_runner:41 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 16:50:32.010 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 16:50:32.010 | INFO     | __main__:api_yaml_runner:45 - Variable saved successfully ==> session_token2 :> 我是token2的值
+2021-11-05 17:01:29.909 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:01:29.910 | INFO     | __main__:api_yaml_runner:43 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 17:01:29.910 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 17:01:29.911 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token2 :> 我是token2的值
+2021-11-05 17:01:29.911 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:01:29.911 | INFO     | __main__:api_yaml_runner:37 - Variable substritution successfully,from GlobalVariable:> currentPage==>session_token1
+2021-11-05 17:01:45.645 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:01:45.646 | INFO     | __main__:api_yaml_runner:43 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 17:01:45.647 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 17:01:45.647 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token2 :> 我是token2的值
+2021-11-05 17:01:45.647 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:01:45.647 | INFO     | __main__:api_yaml_runner:37 - Variable substritution successfully,from GlobalVariable:> currentPage ==>session_token1
+2021-11-05 17:02:00.908 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:02:00.909 | INFO     | __main__:api_yaml_runner:43 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 17:02:00.910 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 17:02:00.910 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token2 :> 我是token2的值
+2021-11-05 17:02:00.910 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:02:00.910 | INFO     | __main__:api_yaml_runner:37 - Variable substritution successfully,from GlobalVariable:> $session_token1 ==>session_token1
+2021-11-05 17:02:03.366 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:02:03.366 | INFO     | __main__:api_yaml_runner:43 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 17:02:03.367 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 17:02:03.367 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token2 :> 我是token2的值
+2021-11-05 17:02:03.367 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:02:03.368 | INFO     | __main__:api_yaml_runner:37 - Variable substritution successfully,from GlobalVariable:> $session_token1 ==>session_token1
+2021-11-05 17:03:37.736 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:03:37.737 | INFO     | __main__:api_yaml_runner:43 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 17:03:37.737 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 17:03:37.738 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token2 :> 我是token2的值
+2021-11-05 17:03:37.738 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:03:37.738 | INFO     | __main__:api_yaml_runner:37 - Variable substritution successfully,from GlobalVariable:> $session_token1 ==>我是token1的值
+2021-11-05 17:03:39.771 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:03:39.771 | INFO     | __main__:api_yaml_runner:43 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 17:03:39.772 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 17:03:39.773 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token2 :> 我是token2的值
+2021-11-05 17:03:39.773 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:03:39.773 | INFO     | __main__:api_yaml_runner:37 - Variable substritution successfully,from GlobalVariable:> $session_token1 ==>我是token1的值
+2021-11-05 17:03:41.499 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:03:41.500 | INFO     | __main__:api_yaml_runner:43 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 17:03:41.501 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 17:03:41.501 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token2 :> 我是token2的值
+2021-11-05 17:03:41.501 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:03:41.501 | INFO     | __main__:api_yaml_runner:37 - Variable substritution successfully,from GlobalVariable:> $session_token1 ==>我是token1的值
+2021-11-05 17:05:45.315 | INFO     | __main__:api_yaml_runner:33 - ==================================<<  SetUp Code Exec Detail  >>==================================
+2021-11-05 17:05:45.315 | INFO     | __main__:api_yaml_runner:43 - ==================================<<  Extra Detail  >>==================================
+2021-11-05 17:05:45.316 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token1 :> 我是token1的值
+2021-11-05 17:05:45.316 | INFO     | __main__:api_yaml_runner:47 - Variable saved successfully ==> session_token2 :> 我是token2的值

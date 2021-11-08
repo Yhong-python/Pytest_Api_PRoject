@@ -1,0 +1,19 @@
+environment:
+  test:
+    root_url: http://testfdv2.gold-cloud.com:82
+    db_config:
+      host: 127.0.0.1
+      port: 3306
+      user: root
+      passwd: '123456'
+      db: yhtest
+      charset: utf8
+  prod:
+    root_url: http://atestfdv2.gold-cloud.com:82
+    db_config:
+      host: 61.130.9.155
+      port: 13306
+      user: root
+      passwd: cJp35%Yf4=9U
+      db: qp_itfin2
+      charset: utf8

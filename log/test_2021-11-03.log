@@ -1,0 +1,49 @@
+2021-11-03 16:21:43.264 | INFO     | common.tools:wrapper:56 - aaaa
+2021-11-03 16:21:43.264 | INFO     | common.tools:wrapper:57 - 1
+2021-11-03 16:22:59.814 | INFO     | common.tools:wrapper:56 - aaaa
+2021-11-03 16:22:59.815 | INFO     | common.tools:wrapper:57 - 1
+2021-11-03 16:22:59.816 | INFO     | conftest:pytest_runtest_makereport:44 - 开始运行setup的日志
+2021-11-03 16:25:04.327 | INFO     | conftest:pytest_runtest_setup:23 - 开始运行setup的日志
+2021-11-03 16:25:04.328 | INFO     | common.tools:wrapper:56 - aaaa
+2021-11-03 16:25:04.328 | INFO     | common.tools:wrapper:57 - 1
+2021-11-03 16:25:34.400 | INFO     | conftest:pytest_runtest_setup:23 - 开始运行setup的日志
+2021-11-03 16:25:34.401 | INFO     | common.tools:wrapper:56 - aaaa
+2021-11-03 16:25:34.401 | INFO     | common.tools:wrapper:57 - 1
+2021-11-03 16:25:34.403 | INFO     | conftest:pytest_runtest_makereport:38 - setup结束
+2021-11-03 16:30:47.145 | INFO     | conftest:pytest_runtest_setup:23 - 开始运行setup的日志
+2021-11-03 16:30:47.145 | INFO     | common.tools:wrapper:56 - aaaa
+2021-11-03 16:30:47.145 | INFO     | common.tools:wrapper:57 - 1
+2021-11-03 16:30:47.147 | INFO     | conftest:pytest_runtest_call:26 - <Function test_01>
+2021-11-03 16:32:36.151 | INFO     | common.tools:wrapper:56 - aaaa
+2021-11-03 16:32:36.152 | INFO     | common.tools:wrapper:57 - 1
+2021-11-03 16:32:36.154 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='set_api_base_url' scope='session' baseid=''>
+2021-11-03 16:32:36.154 | INFO     | conftest:pytest_fixture_post_finalizer:24 - <SubRequest 'set_api_base_url' for <Function test_01>>
+2021-11-03 16:32:36.154 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='set_api_base_url' scope='session' baseid=''>
+2021-11-03 16:32:36.155 | INFO     | conftest:pytest_fixture_post_finalizer:24 - <SubRequest 'set_api_base_url' for <Function test_01>>
+2021-11-03 16:32:36.155 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='cmdopt' scope='session' baseid=''>
+2021-11-03 16:32:36.155 | INFO     | conftest:pytest_fixture_post_finalizer:24 - <SubRequest 'cmdopt' for <Function test_01>>
+2021-11-03 16:32:36.156 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='session_start_up' scope='session' baseid=''>
+2021-11-03 16:32:36.156 | INFO     | conftest:pytest_fixture_post_finalizer:24 - <SubRequest 'session_start_up' for <Function test_01>>
+2021-11-03 16:32:36.157 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='session_start_up' scope='session' baseid=''>
+2021-11-03 16:32:36.157 | INFO     | conftest:pytest_fixture_post_finalizer:24 - <SubRequest 'session_start_up' for <Function test_01>>
+2021-11-03 16:32:36.157 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='sssssss' scope='session' baseid=''>
+2021-11-03 16:32:36.157 | INFO     | conftest:pytest_fixture_post_finalizer:24 - <SubRequest 'sssssss' for <Function test_01>>
+2021-11-03 16:32:36.158 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='_verify_url' scope='session' baseid=''>
+2021-11-03 16:32:36.158 | INFO     | conftest:pytest_fixture_post_finalizer:24 - <SubRequest '_verify_url' for <Function test_01>>
+2021-11-03 16:32:36.158 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='_verify_url' scope='session' baseid=''>
+2021-11-03 16:32:36.159 | INFO     | conftest:pytest_fixture_post_finalizer:24 - <SubRequest '_verify_url' for <Function test_01>>
+2021-11-03 16:32:36.159 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='base_url' scope='session' baseid=''>
+2021-11-03 16:32:36.160 | INFO     | conftest:pytest_fixture_post_finalizer:24 - <SubRequest 'base_url' for <Function test_01>>
+2021-11-03 16:32:45.122 | INFO     | common.tools:wrapper:56 - aaaa
+2021-11-03 16:32:45.123 | INFO     | common.tools:wrapper:57 - 1
+2021-11-03 16:32:45.126 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='set_api_base_url' scope='session' baseid=''>
+2021-11-03 16:32:45.126 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='set_api_base_url' scope='session' baseid=''>
+2021-11-03 16:32:45.127 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='cmdopt' scope='session' baseid=''>
+2021-11-03 16:32:45.127 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='session_start_up' scope='session' baseid=''>
+2021-11-03 16:32:45.127 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='session_start_up' scope='session' baseid=''>
+2021-11-03 16:32:45.128 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='sssssss' scope='session' baseid=''>
+2021-11-03 16:32:45.129 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='_verify_url' scope='session' baseid=''>
+2021-11-03 16:32:45.129 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='_verify_url' scope='session' baseid=''>
+2021-11-03 16:32:45.129 | INFO     | conftest:pytest_fixture_post_finalizer:23 - <FixtureDef argname='base_url' scope='session' baseid=''>
+2021-11-03 16:33:18.482 | INFO     | common.tools:wrapper:56 - aaaa
+2021-11-03 16:33:18.483 | INFO     | common.tools:wrapper:57 - 1

@@ -1,0 +1,38 @@
+
+xxxxapi:
+- case: 验证响应中start和count与请求中的参数一致
+  request:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36
+      Content-Type: application/json
+      app_version: 2.8.6
+      device_sn: FwgRiO7CNA50DSU
+      os_platform: ios
+    method: POST
+    path: /adminApi/pmsDepartment/companyList
+    data:
+      currentPage: 1
+      pageSize: 10
+      search: '{"name":""}'
+  extract:
+    session_token1: content.token1
+    session_token2: content.token2
+  validate:
+    jsonSchemaTemplate: xxxmanaget_api.api1
+    response:
+      - eq: [status_code, 200]
+      - eq: [headers.Content-Type, application/json]
+      - eq: [content.success, true]
+      - eq: [content.token, baNLX1zhFYP11Seb]
+
+- case: 验证响应中start和count与请求中的参数一致2
+  request:
+    method: POST
+    path: /adminApi/pmsDepartment/companyList
+    data:
+      currentPage: $session_token1
+  validate:
+    response:
+      - eq: [status_code, 200]
+
+
